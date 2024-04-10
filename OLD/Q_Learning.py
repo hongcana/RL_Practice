@@ -121,7 +121,7 @@ def main():
     env = GridWorld()
     agent = QAgent()
 
-    for n_epi in range(1000):
+    for n_epi in range(10000):
         done = False
 
         s = env.reset()
