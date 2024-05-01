@@ -21,7 +21,7 @@ for i in range(max_iter):
 
     print(['V_'+str(i+1)+'('+state+')='+str(np.round(value,3)) for state, value in V.items()])
 
-trace_V = np.array(trace_V).T
+trace_V = np.array(trace_V).T # [2,100] to [100,2]
 
 
 v1 = -2.25
